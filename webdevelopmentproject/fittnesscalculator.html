@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fitness Calculator - Gym Supplements</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    /* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+  background-image: url('https://www.calculators.org/graphics/asian-woman.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+/* Fitness Calculator styles */
+.fitness-calculator {
+	padding: 50px;
+}
+
+.fitness-calculator h1 {
+	font-size: 36px;
+	margin: 0 0 20px 0;
+}
+
+.fitness-calculator form {
+	margin-top: 20px;
+}
+
+.fitness-calculator label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.fitness-calculator input[type="number"],
+.fitness-calculator select {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.fitness-calculator input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.fitness-calculator input[type="submit"]:hover {
+	background-color: #666;
+}
+
+.result {
+	margin-top: 20px;
+	border: 1px solid #ccc;
+}
+</style>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="fittnesscalculator.html">Fitness-Calculator</a></li>
+				<li><a href="supplement.html">Supplement</a></li>
+				<li><a href="Aboutus.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="fitness-calculator">
+		<h1>Fitness Calculator</h1>
+		<form>
+			<label for="age">Age:</label>
+			<input type="number" id="age" name="age" required>
+
+			<label for="gender">Gender:</label>
+			<select id="gender" name="gender" required>
+				<option value="">Select</option>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+
+			<label for="height">Height (in cm):</label>
+			<input type="number" id="height" name="height" required>
+
+			<label for="weight">Weight (in kg):</label>
+			<input type="number" id="weight" name="weight" required>
+
+			<input type="submit" value="Calculate">
+		</form>
+
+		<div class="result">
+			<h2>Result:</h2>
+			<p>Your BMI is <span id="bmi"></span>.</p>
+			<p>Your BMR is <span id="bmr"></span> calories per day.</p>
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy; 2023 Gym Supplements</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

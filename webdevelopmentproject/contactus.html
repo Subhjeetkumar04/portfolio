@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us - Gym Supplements</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<style>
+    /* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+  background-image: url('https://www.shutterstock.com/image-photo/blurred-fitness-gym-background-banner-260nw-374917516.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Header styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Contact Us styles */
+.contact-us {
+	padding: 50px;
+}
+
+.contact-us h1 {
+	font-size: 36px;
+	margin: 0 0 20px 0;
+}
+
+.contact-us p {
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 20px 0;
+}
+
+.contact-us form {
+	margin-top: 20px;
+}
+
+.contact-us label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.contact-us input[type="text"],
+.contact-us input[type="email"],
+.contact-us textarea {
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.contact-us textarea {
+	height: 150px;
+}
+
+.contact-us input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+	cursor: pointer;
+}
+
+.contact-us input[type="submit"]:hover {
+	background-color: #666;
+}
+
+/* Footer styles */
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+</style>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="fittnesscalculator.html">Fitness-Calculator</a></li>
+				<li><a href="Supplement.html">supplements</a></li>
+				<li><a href="Aboutus.html">About Us</a></li>
+				<li><a href="contactus.html">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<div class="contact-us">
+		<h1>Contact Us</h1>
+		<p>Have a question or comment? We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
+		<form>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+
+			<input type="submit" value="Submit">
+		</form>
+	</div>
+
+	<footer>
+		<p>&copy; 2023 Gym Supplements</p>
+	</footer>
+</body>
+</html>

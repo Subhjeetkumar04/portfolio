@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5a39073ee9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav class="nav">
+                <img src="Screenshot 2023-09-06 211723.png" alt="lol" width="140px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <h3>Hello , it's Me</3>
+                <h1><span>Subhjeet Kumar</span></h1>
+                <h3>And I'm Frontend Developer</h3>
+                <!-- <p><br>In my portfolio as a software engineer, I showcase a diverse
+                    range of projects <br>that demonstrate my proficiency in
+                    developing robust and user-centric applications.</p> -->
+                </div>
+
+               
+        </div>
+    </div>
+    <!-- ---------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="sub clg pic.jpg" alt="NA" width="200px">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                    <p>Hello, I'm Subhjeet kumar, a passionate software Engineer. I have a strong background in problem
+                        soving and development field, and I love to spent time on new technology and skills. </p>
+                    <p>I believe in creating innovative solutions . I am constantly seeking opportunities to learn and
+                        grow, staying up-to-date with the latest industry trends and technologies.</p>
+                    <p>Feel free to explore my portfolio to see some of my work and get in touch with me to discuss
+                        potential collaborations or opportunities.</p>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span><br></li>
+                            <li><span>Data Structure And Algorithm</span><br></li>
+                            <li><span>DBMS</span><br></li>
+                            <li><span>Web Development</span><br></li>
+                            <li><span>App Development</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>NOT YET</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>ASANSOL ENGINNERING COLLEGE</span><br>B.TECH IN ELECTRONICS AND
+                                COMMUNICATION <br> SGPA : 88.8/10</li>
+                            <li><span>D.A.V Model School </span><br>Senior Secondary <br>Percentage : 87.8%</li>
+                            <li><span>D.A.V Model School</span><br>Junior Secondary<br>Percentage : 73%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------services---------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>We specialize in creating dynamic and responsive websites that leave a lasting impression.
+                        We stay ahead of the curve by leveraging the latest web development technologies and frameworks.
+                        Contact us now to bring your portfolio to life with our top-notch web development
+                        expertise.Unleash your potential today! </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX</h2>
+                    <p> We create visually stunning and intuitive interfaces that enhance user experiences. Let us bring
+                        your designs to life and showcase your talent in crafting captivating digital experiences.
+                        Contact us now to transform your portfolio with our top-notch UI/UX designs.Unleash your
+                        potential today!</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>We specialize in creating cutting-edge iOS, Android, and web apps that captivate users and drive
+                        success. A great app isn't just about functionality; it's about delivering an exceptional user
+                        experience. Contact us now to bring your app ideas to life and showcase your skills in the
+                        digital world. Unleash your potential today!</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------portfolio------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="weather1.pic" alt="">
+                    <div class="layer">
+                        <h3>Weather Site</h3>
+                        <p> Get instant access to current weather conditions, hourly forecasts, and extended forecasts
+                            for your precise location.</p>
+                        <a href="wetherProject/index1.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="calculator.pic.jpg" alt="">
+                    <div class="layer">
+                        <h3>Calculator Site</h3>
+                        <p> Perform basic arithmetic operations like addition, subtraction, multiplication, and division
+                            with ease.</p>
+                        <a href="calculator/cal.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gym.pic" alt="">
+                    <div class="layer">
+                        <h3>Fitness Site</h3>
+                        <p> Access a wide range of workout plans tailored to your fitness level, goals, and preferences.
+                        </p>
+                        <a href="webdevelopmentproject/index.html"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ---------contact-------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>subhjeetyadav@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 7209882279</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i> </a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i> </a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i> </a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i> </a>                   
+                </div>
+                <a href="SUBHJEET RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <span>Created By <a>SUBHJEET</a> | <span class="far fa-copyright"></span> 2020 All rights reserved.</span>
+</footer>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+        }
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    
+<script>
+    const scriptURL ='https://script.google.com/macros/s/AKfycbxOjTL4TBLHPmwphqpPEzFnw3YQ_8br-bWOzbsWBAgiSzow6rJqZGwhY5e5B6kft_pY/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg");
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent sucessfull"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
